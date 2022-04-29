@@ -1,31 +1,34 @@
-# Shop-shop-redux
+# 🛍️-Shop-Redux
 
-<a href="link">![Deployed App](https://img.shields.io/badge/Deployed%20App-blue.svg)</a>
+<a href="https://redux-shop-ec.herokuapp.com/">![Deployed App](https://img.shields.io/badge/Deployed%20App-blue.svg)</a>
 
 ## Description
 
-Book Search is a full-stack MERN app that uses the Google Books API to let you search for any book title and returns results for the title searched. The search results are displayed with the book's title, image and description. You can signup to create a username and save your favorite books to display in your saved books page. The saved books are persistent and will still show up when you log out and return to the app.
+Shop Redux is an e-commerce site in which you can purchase products and checkout using stripe. This application is refactor of the original Shop-Shop which used React’s Context API to handle global state. Shop Shop Redux uses the Redux library to handle global state.
 
-This app was refactored from an existing, fully functional MERN app setup with a RESTful API. I refactored the existing RESTful API to a GraphQL API using Apollo Server with GraphQL queries and mutations along with MongoDB, Express, React and Node. Refactoring to a GraphQL API allows for less calls to the server and avoids overfetching of data.
+This App Sort by categories such as Food, Household Supplies, Electronics, Books, and Toys while you shop, Login or sign up in order to checkout your purchase, Easy access to your shopping cart as you add items. You can adjust product quantity and remove items. The checkout option is only available when you are signed in; uses stripe as a simple and secure way to complete order payments. You can test out the functionality by using a fake credit card number 4242 4242 4242 4242. The rest of the payment info can be anything.
 
 #### Main Page:
 
 ![Main Page](/client/src/assets/images/screenshot-1.png)
 
-#### Search Results:
+#### Login or sign up:
 
-![Search Results](/client/src/assets/images/screenshot-2.png)
+![Login or sign up](/client/src/assets/images/screenshot-4.png)
 
-#### Saved Books:
+#### Cart:
 
-![Saved Books](/client/src/assets/images/screenshot-3.png)
+![Cart Results](/client/src/assets/images/screenshot-2.png)
+
+#### Payment:
+
+![Payment](/client/src/assets/images/screenshot-3.png)
 
 ## Table of Contents
 
 - [Tech Used](#tech-used)
 - [Contact](#contact)
 - [Links](#links)
-- [License](#license)
 
 ## Technology Used
 
@@ -38,6 +41,7 @@ This app was refactored from an existing, fully functional MERN app setup with a
  ![Mongoose.js](https://img.shields.io/badge/Mongoose.js-880000?style=for-the-badge&logoColor=white)  
  ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)  
  ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 
 ## Contact
 
@@ -46,7 +50,7 @@ Contact me at **ely.cano2033@gmail.com** with any questions or if you'd like to 
 
 ## Links
 
-- **[Deployed App](https://book-search-engine-ecano.herokuapp.com/)**
-- **[GitHub Repo](https://github.com/ElyCano/book-search-engine-ec.git)**
+- **[Deployed App](https://redux-shop-ec.herokuapp.com/)**
+- **[GitHub Repo](https://github.com/ElyCano/redux-shop-ec.git)**
 - **[My Portfolio](https://professional-react-portafolio.herokuapp.com/)**
 - **[Connect on LinkedIn](https://www.linkedin.com/in/elizabeth-cano-6241b9226/)**
