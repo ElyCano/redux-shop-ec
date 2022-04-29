@@ -17,7 +17,7 @@ import { idbPromise } from "../../utils/helpers";
 //function ProductList({ currentCategory }) {
 // global state
 
-function ProductList({}) {
+function ProductList() {
   // commented out in favor of redux logic
   //const [state, dispatch] = useStoreContext();
   const state = useSelector((state) => {

@@ -20,7 +20,7 @@ import { idbPromise } from "../../utils/helpers";
 // therefore it can be removed from the prop as we are using the
 // global sate
 
-function CategoryMenu({}) {
+function CategoryMenu() {
   // Before migrating to use global Store
   //const { data: categoryData } = useQuery(QUERY_CATEGORIES);
   //const categories = categoryData?.categories || [];

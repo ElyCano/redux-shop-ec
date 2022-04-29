@@ -20,14 +20,15 @@ function Success() {
           idbPromise("cart", "delete", item);
         });
       }
-
-      setTimeout(() => {
-        window.location.assign("/");
-      }, 3000);
     }
 
     saveOrder();
   }, [addOrder]);
+
+  setTimeout(function () {
+    alert("");
+  }, 3000);
+  window.location.assign("/");
 
   return (
     <div>
